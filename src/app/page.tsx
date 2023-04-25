@@ -1,3 +1,11 @@
+'use client'
+
+import Map from './components/Map'
+
 export default function Home() {
-  return <main>Hello World</main>
+  return (
+    <main>
+      <Map />
+    </main>
+  )
 }
