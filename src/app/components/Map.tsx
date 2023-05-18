@@ -4,7 +4,8 @@ import { useEffect, useRef, useState } from 'react'
 import countries from '../countries.json'
 import axios from 'axios'
 
-mapboxgl.accessToken = ''
+mapboxgl.accessToken =
+  'pk.eyJ1Ijoic3NpYW5maWxpcGUiLCJhIjoiY2wyeGZ0bmRsMDBmYzNqczByZWt3OXNxMyJ9.y18WiuK79uwBKCSOKHJx2A'
 
 export default function Map() {
   async function getData() {
